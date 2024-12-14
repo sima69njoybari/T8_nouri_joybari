@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Josefin;
+    src: url(../../public/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+    font-weight: 400;
+    unicode-range: U+00-FF;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url(../../public/fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+    font-weight: 700;
+    unicode-range: U+00-FF;
+}
