@@ -34,7 +34,6 @@ body{
 }
 
 .container{
-
     display: grid;
     place-items: center;
     height: 100vh;
@@ -69,7 +68,7 @@ body{
     text-align: right;
 }
 
-.card-job{
+.card-new-todo{
     width: 100%;
     padding-bottom: 3px;
     margin-top: 30px;
@@ -121,30 +120,28 @@ border: 2px solid var(--x-dark4-);
     padding: 6px;
 }
 
-.form-select-delet {
+.form-select-overed {
 display: none;   
 position: absolute;
 right: 10px;
 padding-bottom: 2px;
  }
 
- .zabdar{
+.times{
     display: none;   
 
  }
-
- 
  
  @media(max-width:768px)
  {
      .container .card-todo{
-         max-width: 500px ;
-         padding: 0px;
-         aspect-ratio: 0.8;
-         font-size: 13px;
+            max-width: 500px ;
+            padding: 0px;
+            aspect-ratio: 0.8;
+             font-size: 13px;
         }
         
-        .card-exit{
+     .card-exit{
 
             position: absolute;
             bottom: -70px;
@@ -156,6 +153,5 @@ padding-bottom: 2px;
             width: 100%;
             text-align: center;       
         }
-
+    }
     
-}

@@ -68,14 +68,14 @@ body{
     text-align: right;
 }
 
-.card-job{
+.card-new-todo{
     width: 100%;
     padding-bottom: 3px;
     margin-top: 30px;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 25px;
-border-radius: 8px;
+    border-radius: 8px;
     position: absolute;
     flex-grow: 1;
     right: 0;
@@ -117,16 +117,15 @@ padding-top: 13px;
     padding: 15px;
     }
     
-.form-select-delet {
+.form-select-overed{
     display: none;   
     position: absolute;
     right: 10px;
     padding-bottom: 2px;
      }
     
-.zabdar{
-        display: none;   
-    
+.times{
+        display: none;      
      }
 
 
@@ -136,7 +135,7 @@ padding-top: 13px;
     }
      
 
-    @media(max-width:768px)
+@media(max-width:768px)
     {
         .container .card-todo{
             max-width: 500px ;
@@ -145,7 +144,7 @@ padding-top: 13px;
             font-size: 13px;
            }
            
-           .card-exit{
+        .card-exit{
    
                position: absolute;
                bottom: -70px;
@@ -159,5 +158,5 @@ padding-top: 13px;
            }
    
        
-   }
+}
    
